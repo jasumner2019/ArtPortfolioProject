@@ -1,12 +1,18 @@
 .jumbotron {
     margin: 0;
-    padding: 60px;
-    background: none;
+    padding: 40px;
+    background: rgba(rgb(255, 255, 255),.5);
 }
 
 #logohead {
     font-family: serif;
     font-size: 55px;
+}
+
+#logoheadnotmain {
+    font-family: serif;
+    font-size: 55px;
+    text-align: center;
 }
 
 #logobod {
@@ -17,4 +23,3 @@
 .navbar {
     font-size: 20px;
 }
-
