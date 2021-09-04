@@ -23,3 +23,8 @@
 .navbar {
     font-size: 20px;
 }
+
+#carouselImage {
+    object-fit: cover;
+    height: 1000px;
+}
