@@ -36,7 +36,9 @@
 }
 
 #navnotmain {
-    float: right;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
 }
 
 #logonotmain {
@@ -72,5 +74,5 @@
   }
 
 .imagedescription {
-    width: 600px;
+    width: 500px;
 }
