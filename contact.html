@@ -13,6 +13,66 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    
+    <div>
+        <a id="logonotmain" href="index.html"> <h1 class="logo" id="logoheadnotmain" href="index.html">Ashton Sumner</h1> </a>
+    </div>
+    <nav id="navnotmain" class="navbar navbar-expand-sm navbar-light sticky-top">
+        <div class="collapse navbar-collapse" id="portfolioNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Store</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">NFTs</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 style="margin-bottom: 50px; margin-top: 150px;">Contact</h1>
+        <p style="margin-bottom: 50px" id="contactp">You can reach out to me if you're interested in an original artwork, commissions, inquiries, or just to say hi.</p>
+            <div class="col">
+                <form>
+                    <div class="form-group row">
+                        <label id="contactlabel" for="firstName" class="col-sm-2">First Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control form-text" id="firstName">
+                        </div>
+                    </div>    
+                    <div class="form-group row">
+                        <label id="contactlabel" for="lastName" class="col-sm-2">Last Name</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control form-text" id="lastName">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label id="contactlabel" for="email" class="col-sm-2">Email Address</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control email" id="email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label id="contactlabel" for="subject" class="col-sm-2">Subject</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control form-text" id="subject">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label id="contactlabel" for="message" class="col-sm-2">Message</label>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control form-text" id="subject">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -34,3 +34,43 @@
     bottom: 8px;
     right: 16px;
 }
+
+#navnotmain {
+    float: right;
+}
+
+#logonotmain {
+    text-decoration: none; 
+    background-color: none; 
+    color: black;
+}
+
+#galleryimage {
+    width: 500px;
+}
+
+#contactp {
+    font-size: 20px;
+}
+
+#mug {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#contactlabel {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.imagedescription {
+    width: 600px;
+}
