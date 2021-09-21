@@ -76,3 +76,27 @@
 .imagedescription {
     width: 500px;
 }
+
+.vertical-center {
+    margin-top: 10px;
+    left: 50%;
+    position: relative;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .imagetitle {
+      font-family: serif;
+      margin-top: 10px;
+      text-align: center;
+  }
+
+  .leftright {
+      left: 50%;
+      right: 50%;
+  }
+
+  .imagedisplayresponsive {
+      width: 80%;
+      height: auto;
+  }
