@@ -100,3 +100,9 @@
       width: 80%;
       height: auto;
   }
+
+  .centergallery {
+    display: block;
+    margin: 20px;
+    width: 100%;
+  }
