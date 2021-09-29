@@ -24,15 +24,21 @@
     font-size: 20px;
 }
 
-#carouselImage {
-    object-fit: cover;
-    height: auto;
+.carouselImage {
+    height: 100%;
+    width: 100%;
 }
 
 .bottomright {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+    position: fixed;
+    z-index: 8000;
+    width: 65px;
+    height: 65px;
+    right: 30px;
+    bottom: 2em;
+    border-radius: 35px;
+    box-shadow: 3px 3px 10px rgb(23 25 25 / 70%);
+    transition: transform .3s ease-in-out;
 }
 
 #navnotmain {
